@@ -7,7 +7,7 @@ public class DBConMYsql1 {
 	public static void main(String[] args) {
 		
 		try {
-			
+			System.out.println("I just tried to edit it in GIT");
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/edvenswatech","root","krunalkk");
 			Statement stm=con.createStatement();
 			ResultSet rs=stm.executeQuery("Select * from employees");
